@@ -1,4 +1,5 @@
 module.exports = {
+  publicPath: '/luxury-carts/',
   pluginOptions: {
     i18n: {
       locale: "en",
