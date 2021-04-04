@@ -1,0 +1,373 @@
+{
+  "deliveryNote": "Delivery Note",
+  
+  "globals": {
+    "Home": "Home",
+    "ok": "Ok"
+  },
+  "pickup":{
+    "day":"day",
+    "hour":"hour"
+  },
+
+  "nav":{
+    "home": "Booking",
+    "contact": "Contact Us",
+      "about" : "About Us",
+      "list": "Booking List",
+    "logout": "Logout",
+    "login": "LOGIN / SIGN UP"
+  },
+
+  "confirmation": {
+    "paymentError": "The payment was not successfull",
+    "button": "Home"
+  },
+
+  "details":{
+    "uploadSpecialCert": "Upload special needs certificate (image)",
+    "title": "Luxury Cart Rentals",
+    "desc": "Your little private transportation",
+    "to": "To: Date and Time*",
+    "from": "From: Date and Time*",
+    "location": "Location*",
+    "type": "Vehicle Type*",
+    "old" : "VIP",
+    "payment" : "Payment Method*",
+    "special": "Special Needs",
+    "addons": {
+      "title": "Add-on (Optional)",
+      "price" :"Costs",
+      "discount": "Discount"
+    },
+    "button": "Submit",
+    "price": "Amount",
+    "discount": "Discount Value",
+    "discountPercentage" : "Disccount Percentage",
+    "vat": "VAT",
+    "total": "Total",
+    "msg1": "You are allowed to pick-up your vehicle up to only",
+    "msg2": " from your pick-up date/time, after that your booking will be expired.",
+    "agree": "For more check out our",
+    "weekDays": [
+      "Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"
+    ],
+    "months": [
+      "January", "February", "March", "April",
+      "May", "June", "July", "August",
+      "September", "October", "November", "December"
+    ],
+    "errorMessages": {
+      "invalidType": "You must shoose a two seats vehicle when choosing 'Driver' addon",
+      "required": "This field is required"
+    }
+  },
+  "payment":{
+    "cash":" Cash Upon Arrival",
+    "card":" Payment Card"
+  },
+
+  "list":{
+    "title": "Booking List"
+  },
+
+  "card":{
+    "pdf": {
+      "bookingSummary": "View Booking Summary",
+      "invoice": "View Invoice"
+    },
+    "pdfDownload": "View Delivery Note",
+    "date": "Booking Date/Time",
+    "location": "Booking Location",
+    "createdBy": "Created By",
+    "customerName": "Customer Name",
+    "addons": "AddOns",
+    "payment": "Payment Method",
+    "type": "Vehicle Type",
+    "yes": "Yes",
+    "no": "No",
+    "old" : "VIP",
+    "special": "Special Needs",
+    "checkup": "Vehicle Checkup",
+    "cancel": {
+      "button": "Cancel",
+      "title": "ARE YOU SURE!",
+      "paragraph":"Are you sure you want to cancel this booking",
+      "yes": "YES CANCEL!",
+      "no": "Don't CANCEL",
+      "error": "Couldn't cancel your booking",
+      "success": "Cancelled Successfully",
+      "status": "Status"
+    },
+    "refund": {
+      "title": "Refund",
+      "paragraph": "You will be refunded with amount of ",
+      "yes": "Yes Refund",
+      "no":  "No Don't"
+    }
+  },
+
+  "empty":{
+    "label": "You have no booking yet",
+    "button": "Book Now"
+  },
+
+  "success":{
+    "message": "Booking Successful",
+    "button": "View Booking"
+  },
+
+  "failure":{
+    "message": "Booking Failed"
+  },
+
+  "reset":{
+    "title": "Forgot Password?",
+    "desc": "Please enter your email address to sent you the new password",
+    "button": "Reset Password"
+  },
+
+  "contact":{
+    "title": "Contact Us",
+    "email": "Your email*",
+    "ftitle": "Title*",
+    "notes": "Description*",
+    "reason": "Type*",
+    "button": "Send",
+    "complaint":"Complaint",
+    "suggestion": "Suggestion",
+    "inquiry": "Inquiry",
+    "success": "Thanks for contacting us, the technical support will review your message"
+  },
+  "validation": {
+    "errors": {
+      "required": "This field is required",
+      "invalidEmail": "Invalid email address",
+      "hasDriver": "Please select the two seats vehicle",
+      "usernameAlpha": "Must contain letters only",
+      "minLength": "Field content is too short",
+      "maxLength": "Field content is too long",
+      "numeric": "Field must contain only numbers",
+      "invalidMobile": "Invalid mobile number",
+      "invalidNID": "Invalid National Id/Passport Reference Number",
+      "weakPassword": "Weak password",
+      "passwordMatch": "Password doesn't match",
+      "hasSpecials": "Should not has special characters",
+      "pastDate": "Can't book in the past"
+    } 
+  },
+  "foo":{
+    "copy": "Copyrights LavaLoon 2020",
+    "label": "Luxury Carts-Customer Center 920022848",
+    "policy": "Privacy Policy",
+    "terms": "Terms & Conditions"
+  },
+
+  "login":{
+    "email": "E-mail*",
+    "password": "Password*",
+    "button": "Login",
+    "forget": "Forgot your password?",
+    "label": "By clicking this button, you agree to our",
+    "and": "and"
+  },
+
+  "register":{
+    "firstName": "First Name*",
+    "lastName": "Last Name*",
+    "mob": "Phone Number*",
+    "country":"Nationality",
+    "confirm":"Confirm Password*",
+    "nid": "National Id/ Reference Passport*",
+    "label": "I agree to the",
+    "button": "Sign Up"
+  },
+  
+  "otp":{
+    "title": "Verify your number",
+    "paragraph": "We sent you a verification code to your Phone",
+    "resend": "Resend Code",
+    "resendSuccess": "We sent you the verification code, please check your SMS inbox",
+    "verify": "Verify",
+    "error": "You entered a wrong OTP, please try again",
+    "offline": "You are offline, please check your internet connection",
+    "online": "you are online again",
+    "success": "Correct Code",
+    "wait": "Resend code in"
+  },
+
+  "privacy": {
+    "title": "Privacy Policy",
+    "content":[
+      {
+        "title":"First item: Introduction",
+        "paragraph": [ "Believing in the importance of the data and its confidentiality, and ensuring that the management of (Yusur) application provides the best levels of service while committing to maintaining the confidentiality and privacy of the user data and the data entered, the management is committed to maintaining the confidentiality and privacy of the user information and the materials entered by them as a basis of the privacy policy. The management will only disclose that information in accordance with the specified controls set out in item IV (use and disclosure)." ]
+      },
+      {
+        "title":"Second item: User information",
+        "paragraph":[
+          "User data and information means any of the following: ",
+          "A- Personal data used for registration.",
+          "B- Contact information and usage-related updates."
+        ] 
+      },
+      {
+        "title":"Third item: Collecting and storing information",
+        "paragraph": [
+           "A- Collection of information:",
+           "1- Contact information: The application collects some device data that helps to improve the experience, such as the device language and system type.",
+           "2- The information entered: The information entered by the user such as reservation requests, Sales transactions, and his /her answers to any questionnaires on application are saved.", 
+           "B - Storage of Data The user's information is stored at the servers specified by the application management within the Kingdom of Saudi Arabia. The application management is keen to protect these servers from penetration and unauthorized access according to the established standards."
+        ]
+      },
+      {
+        "title":"Fourth item: Use and Disclosure",
+        "paragraph": [
+          "A- The application services uses are subject to a standards issued by the General Presidency for the affairs of the Grand Mosque and the Prophet's Mosque in the Kingdom of Saudi Arabia, which aim to facilitate the access of pilgrims  (in and outside the Kingdom of Saudi Arabia) to reserve and purchase the electric scooters and to receive notifications sent by the application. The user agrees to protect his/her personal information and the management of the application does not disclose it to any party except in accordance with the instructions of the General Presidency for the affairs of the Grand Mosque and the Prophet’s Mosque  and what is imposed by the local laws in the Kingdom of Saudi Arabia.",
+          "B- Only the authorized workers in the application management have the right to access the user’s information. They can do so for the purposes and uses determined by the policies approved by the application management.",
+          "C- It is permissible to use the user data that does not specify his/her identity within cumulative statistical data and indicators, and to share it with all the relevant authorities according to what the application management deems appropriate."
+        ]
+      },
+      {
+        "title":"Fifth item: External links",
+        "paragraph": [
+          "The application may provide links of other parties. The application is not responsible for how other parties collect or use personal identification information about the user. The user bears full responsibility for his/her data."
+        ]
+      },
+      {
+        "title":"Sixth item: User’s Responsibility to Protect Privacy",
+        "paragraph": [
+          "In order to protect the user’s information, we recommend the following:",
+          "A- Contacting technical support of the application immediately when the user believes that another person was able to share login information to his/her account in the application or any other confidential information.",
+          "B- Not to give any secret information via phone or internet unless the identity of the person or party receiving the information is known.",
+          "C- Not to share the login information (username and password) with others, and not to allow others to use the user account in the application.",
+          "D- Using a secure electronic device when using the application, while closing all unused Internet-connected apps and making sure that an anti-virus program is always up to date."
+        ]
+      },
+      {
+        "title":"Seventh item: General Provisions",
+        "paragraph": [
+          "- Name of Authority overseeing the application: ????????????????????????.",
+          "- Email: contact@Yusur.gov.sa",
+          "- The Administration of “Yusur” application reserves the right to add or change any of the provisions of the privacy policy, and the users shall be notified. The App’s Management has the right to terminate the user’s account if the user does not accept any changes in the privacy policy.",
+          "- The Arabic language is the language adopted in applying the terms and conditions. The Arabic text shall prevail if there are any disputes in interpreting any received text in any other language."
+        ]
+      }
+    ]
+  },
+
+  "terms":{
+    "title": "Terms & Conditions",
+    "content":[
+      {
+        "title":"First Item: The Objective of (Yusur) Application",
+        "paragraph": [
+          "properties of “Yusur” application shall be subject to any additional instructions issued in implementation of the local regulations in the Kingdom of Saudi Arabia in order to achieve the desired health objective of facilitate the access of pilgrims  (in and outside the Kingdom of Saudi Arabia) to reserve and purchase the electric scooters and to receive notifications sent by the application"
+        ]
+      },
+      {
+        "title":"Second Item: Registration",
+        "paragraph":[
+          "According to the instructions of the General Presidency for the affairs of the Grand Mosque and the Prophet’s Mosque(in the Kingdom of Saudi Arabia), (Yusur) application is the only electronic official means to reserve and purchase the electric scooters in the Grand Mosque and the Prophet’s Mosque, who are 15 years and over, can register in Yusur application and request a reservation or sales transaction. Those who are under the age of 15 are not entitled to register in the application."
+        ] 
+      },
+      {
+        "title":"Third Item: Password Policy",
+        "paragraph": [
+           "- The password must be 8 characters and contain the following:",
+           "- At least 1 capital letter, At least 1 small letter, At least 1 number."
+        ]
+      },
+      {
+        "title":"Fourth Item: Service Description",
+        "paragraph": [
+          "“Yusur” Application allows pilgrims (in and outside the Kingdom of Saudi Arabia) to reserve and purchase the electric scooters in the Grand Mosque and the Prophet’s Mosque.",
+          "- Several features and functions will be added to the application accordingly with the General Presidency for the affairs of the Grand Mosque and the Prophet’s Mosque(in the Kingdom of Saudi Arabia) instructions issued."
+        ]
+      },
+      {
+        "title":"Fifth Item: User Obligations",
+        "paragraph": [
+          "Yusur app was developed in order allows pilgrims (in and outside the Kingdom of Saudi Arabia) to reserve and purchase the electric scooters in the Grand Mosque and the Prophet’s Mosque., and receive other notifications sent by the app, based on the General Presidency for the affairs of the Grand Mosque and the Prophet’s Mosque(in the Kingdom of Saudi Arabia) standards . The users are obliged to use the app for the following:",
+          "- The issued ticket from this app is considered as a permission to use the electric scooters in the Grand Mosque and the Prophet’s Mosque. This permit shall not be used for any other purposes. If proven that the permit has been misused, the violator will be subject to the penalties stipulated in the Saudi Anti-Cybercrime Law.",
+          "- The user takes full responsibility of data validity provided." ,
+          "- The users agree to grant the App’s Management a permission to use their data according to General Presidency for the affairs of the Grand Mosque and the Prophet’s Mosque(in the Kingdom of Saudi Arabia) standards that aim to facilitate the access of pilgrims  (in and outside the Kingdom of Saudi Arabia) to reserve and purchase the electric scooters and to receive notifications sent by the application.",
+          "- The user takes full responsibility for service requests submitted from their account in Yusur application.",
+          "- The user is obliged to update their account information in case of changing the mobile number or any other information entered at the time of registration.",
+          "- The user is responsible for services provided upon data-related input in the registration process, and the management of the Yusur application is not responsible for any consequences of data invalidity.",
+          "- The user is responsible for any leakage of data from their personal account, such as the username and password."
+        ]
+      },
+      {
+        "title":"Sixth Item: General Conditions",
+        "paragraph": [
+          "- The management of Yusur Application does not bear responsibility for any consequences resulting from an error or failure to update the user’s information.",
+          "- The Yusur application management does not bear any responsibility for any damages or losses (direct or indirect) that may occur to the user due to the use of the application. ",
+          "- The service can only be used after completing the information on the registration form and agreeing to the terms and conditions.",
+          "- The application management of Yusur has the right to reject any user, in case of the registering conditions were not applicable, and the user has the right to raise a complaint to the following email: yusurcare@gmail.com",
+          "- Yusur application management reserves the right to add or change any of the use conditions, and the users shall be notified, accordingly.",
+          "- Yusur application management has the right to temporarily suspend the service for maintaining, developing, or amending the application, until the completion of the necessary work.",
+          "- The user agrees to receive text messages on their mobile phone number and immediate alerts from the application at any time during the day."
+        ]
+      },
+      {
+        "title":"Seventh Item: Termination of the Account",
+        "paragraph": [
+          "- The user account shall continue being activated unless it is terminated by the management of Yusur Application or according to a request sent by the user to the email: (yusurcare@gmail.com).",
+          "- The management of Yusur application has the right to terminate the user account in case of violating the terms and conditions, and the user has the right to raise a complaint to the following email: yusurcare@gmail.com ",
+          "- The penalties stipulated in the Saudi Anti-Cybercrime Law shall be applied in case of unlawful signing to Yusur App, cancellation of data, deletion of data, destruction of data, leaking data, damaging data, altering or re-disseminating data.",
+          "- Yusur App’s Management has the right to terminate the user's account in case of discovering invalidity of data provided by the user, misusing the application, or violating its terms.",
+          "- The App’s Management has the right to terminate the user’s account if the competent authorities requested the suspension of the service.",
+          "- The App’s Management has the right to terminate the user’s account if the user does not accept any changes in the terms of service.",
+          "- The App’s Management has the right to terminate the user account in the event of force majeure.",
+          "- Privacy policy of (Yusur App) shall be shared with the user to accept it and grants permission to use his/her information according to the provisions stated in that policy."
+        ]
+      },
+      {
+        "title":"Eighth Item: App Management",
+        "paragraph": [
+          "- Name of Authority overseeing the application: Yusur Management",
+          "- Email: (yusurcare@gmail.com)."
+        ]
+      }
+    ]
+  },
+
+  "about":{
+    "title": "About Us",
+    "paragraph":[
+      "Luxury Carts has pioneered the Saudi Arabian market by providing eco-friendly carts with innovative, reliable, and durable vehicles and we are committed to providing our customers right mobility solutions that exceed expectations and perform to the demands of their facilities.",
+      "Luxury Carts providing vehicles that are manufactured in globally recognized, award-winning companies and you can choose from American, European, and Chinese brands and you can expect proven reliability and the industry’s latest innovations. We are providing multiple purpose utility and hospitality vehicles that are available in electric and gas models and built to tackle all of your mobility operations and hospitality needs."
+    ]
+  },
+  "errors": {
+    "loginFail": "Login Failed",
+    "loginErrorMessage": "Username or password is incorrect",
+    "registerFail": "Registration Failed",
+    "requiredFieldsMissing": "Please fill the required fields.",
+    "genericError": "Something went wrong, please try again later."
+  },
+  "confirm": "Booking Confirmation",
+  "redirect": "Opening the bank sessions",
+  "checkStatus": "Checking the payment status",
+
+  "driverMsg" : "Please select the two seats vehicle",
+  "alert": "Alert",
+  "fail": "Failure",
+  "suc": "Success",
+  "dataMiss": "Complete the data to get the price",
+  "booked": "Booked Successfully",
+  "notFound": {
+    "title":"Page Not Found",
+    "msg": "check the page link"
+  },
+
+  "passwordReset": {
+    "errorTitle": "Error",
+    "successMessage": "Review you email to restet your password",
+    "successTitle": "Process Succeeded"
+  },
+
+  "setTime": "Set Time"
+
+}
